@@ -21,6 +21,6 @@ echo "===== 5. 최종 작동 검증 시작 ====="
 # 5.1. GPU 테스트 컨테이너 실행
 echo "--> 5.1. GPU 테스트 컨테이너 실행 중..."
 # sudo 없이 사용하도록 설정했다면 sudo 생략 가능
-sudo docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu22.04 nvidia-smi
+sudo docker run --rm --gpus all nvidia/cuda:12.4.0-base-ubuntu22.04 nvidia-smi
 
 echo "===== 5. 최종 작동 검증 완료 (nvidia-smi 출력 확인) ====="
